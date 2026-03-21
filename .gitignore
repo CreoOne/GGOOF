@@ -22,7 +22,7 @@ mono_crash.*
 !.vscode/extensions.json
 .vscode/*
 
-.vs/*
+.vs
 
 # User-specific files (JetBrains Rider)
 .idea/*
