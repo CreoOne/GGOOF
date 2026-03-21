@@ -7,7 +7,7 @@ namespace GGOOF.Version3.ModelFileNames
         private static readonly SearchValues<char> ScaleSuffixesSearchValues = SearchValues.Create(['K', 'M', 'B', 'T', 'Q']);
 
         public override string ToString()
-            => $"{ExpertCount}x{Count}{ScaleSuffix}";
+            => ExpertCount > 0 ? $"{ExpertCount}x{Count}{ScaleSuffix}" : $"{Count}{ScaleSuffix}";
 
         public static ModelFileSizeLabel? FromString(ReadOnlySpan<char> sizeLabel)
         {
