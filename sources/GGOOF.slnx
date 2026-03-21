@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="GGOOF.UnitTests/GGOOF.UnitTests.csproj" Id="cc396746-9d26-483b-b649-135572f33af0" />
   <Project Path="GGOOF/GGOOF.csproj" />
 </Solution>
